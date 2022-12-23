@@ -1,0 +1,727 @@
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+ul,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+font,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+dl,
+dt,
+dd,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+select,
+input,
+option,
+textarea {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-size: 100%;
+}
+
+button,
+input,
+select,
+textarea {
+  font-size: 100%;
+  margin: 0;
+  vertical-align: baseline;
+}
+
+ul {
+  list-style-type: none;
+}
+
+textarea {
+  overflow: auto;
+  vertical-align: top;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+button,
+html input[type="button"],
+input[type="reset"],
+input[type="submit"],
+textarea {
+  border-radius: 0;
+}
+
+/* remember to define focus styles! */
+:focus {
+  outline: 0;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+a:hover {
+  outline: none;
+  cursor: pointer;
+}
+
+a:focus {
+  outline: none;
+  cursor: pointer;
+}
+
+:focus {
+  outline: none;
+  box-shadow: none;
+}
+
+.btn-check:focus + .btn,
+.btn:focus {
+  outline: 0;
+  box-shadow: none;
+}
+
+/* End Clearfix */
+
+/* For IE 6/7 (trigger hasLayout) */
+
+a,
+button,
+.btn {
+  outline: none !important;
+  transition: all 0.3s ease-in-out 0s;
+  -moz-transition: all 0.3s ease-in-out 0s;
+  -ms-transition: all 0.3s ease-in-out 0s;
+  -o-transition: all 0.3s ease-in-out 0s;
+  -webkit-transition: all 0.3s ease-in-out 0s;
+  text-decoration: none !important;
+}
+
+body {
+  width: 100%;
+  float: left;
+  padding: 0;
+  margin: 0;
+  font-family: Inter-Regular;
+  font-size: 18px;
+  color: #000000;
+  line-height: 28px;
+}
+
+@font-face {
+  font-family: BebasNeue-Regular;
+  src: url(../font/Bebas_Neue/BebasNeue-Regular.ttf);
+}
+@font-face {
+  font-family: Inter-Regular;
+  src: url(../font/Inter/Inter-Regular.ttf);
+}
+@font-face {
+  font-family: Inter-Bold;
+  src: url(../font/Inter/Inter-Bold.ttf);
+}
+
+/******************   header    *************/
+
+.header_content {
+  background-color: #3ecea2;
+  background-size: cover;
+}
+
+.header_main {
+  width: 100%;
+  padding-top: 20px;
+}
+
+.header_main .logo img {
+  width: 300px;
+  height: 85px;
+}
+
+.header_main .contact_info h3 {
+  font-size: 16px;
+  color: #000000;
+  font-family: Inter-Regular;
+}
+
+/******************   donate content    *************/
+
+.donate_content {
+  background-color: #3ecea2;
+  background-size: cover;
+  padding-top: 75px;
+  padding-bottom: 75px;
+}
+
+.donate_content .top_con {
+  width: 100%;
+}
+
+.donate_content .top_con h1 {
+  font-size: 65px;
+  color: #141f1d;
+  text-transform: uppercase;
+  font-family: BebasNeue-Regular;
+  font-style: bold;
+}
+
+.donate_content .top_con .donate_box {
+  background-color: #6ae0bd;
+  padding: 50px 0;
+  border-radius: 20px;
+}
+
+.donate_content .top_con .donate_box h3 {
+  font-size: 45px;
+  color: #141f1d;
+  text-transform: uppercase;
+  font-family: BebasNeue-Regular;
+  font-style: bold;
+}
+
+.donate_content .top_con .donate_btn {
+  padding-top: 20px;
+}
+
+/*****  btn css ******/
+
+.donate_btn button {
+  font-size: 16px;
+  border-radius: 26px;
+  padding: 12px 45px;
+  text-transform: uppercase;
+  background-color: #e97f44;
+  font-family: Inter-Bold;
+  color: #ffffff;
+  border: none;
+}
+
+.donate_btn button i {
+  color: #ffffff;
+}
+
+.donate_btn button:hover {
+  background-color: #e97e449d;
+}
+
+/**** ***/
+
+.donate_content .bottom_con {
+  padding-top: 35px;
+}
+
+.donate_content .bottom_con p {
+  font-size: 20px;
+  color: #141f1d;
+  font-family: Inter-Regular;
+}
+
+/******************   support content    *************/
+
+.support_content {
+  background-color: #5decbf;
+  background-size: cover;
+  padding-top: 85px;
+  padding-bottom: 85px;
+}
+
+.support_content .head_text {
+  width: 100%;
+}
+
+.support_content .head_text h1 {
+  font-size: 65px;
+  color: #000000;
+  font-family: BebasNeue-Regular;
+  text-transform: uppercase;
+}
+
+.support_content .img_content {
+  width: 100%;
+  padding-top: 40px;
+}
+
+.support_content .img_content img {
+  width: 320px;
+  height: auto;
+}
+
+.support_content .img_content img:last-of-type {
+  margin-right: 0;
+}
+
+/******************   artist content    *************/
+
+.artist_content {
+  background-color: #3ecea2;
+  background-size: cover;
+  padding-top: 80px;
+  padding-bottom: 60px;
+}
+
+.artist_content .artist {
+  width: 100%;
+}
+
+.artist_content .artist .img_content img {
+  width: 495px;
+  height: 305px;
+}
+
+.artist_content .artist .text_content h1 {
+  font-size: 65px;
+  color: #000000;
+  font-family: BebasNeue-Regular;
+  text-transform: uppercase;
+}
+
+.artist_content .artist .text_content p {
+  font-size: 20px;
+  color: #141f1d;
+  font-family: Inter-Regular;
+}
+
+/******************   last content    *************/
+
+.last_content {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.last {
+  width: 100%;
+}
+
+.last_content .last .works {
+  background-image: url(../Image/last_img.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  border-radius: 20px;
+}
+
+.last_content .last .works .img_text {
+  width: 100%;
+  padding: 90px;
+}
+
+.last .works h3 {
+  font-size: 36px;
+  color: #ffffff;
+  text-transform: uppercase;
+  font-family: BebasNeue-Regular;
+}
+
+.last .works .donate_btn {
+  padding-top: 25px;
+}
+
+.last .questions {
+  padding-left: 50px;
+  border-left: 2px solid #d1d1d1;
+}
+
+.last .questions .top {
+  background-color: #000000;
+  padding: 20px;
+  border-radius: 21px;
+}
+
+.last .questions .top h1 {
+  font-size: 40px;
+  color: #ffffff;
+  font-family: BebasNeue-Regular;
+  padding-bottom: 10px;
+}
+
+.last .questions .top .contact h3 {
+  font-size: 14px;
+  color: #ffffff;
+  font-family: Inter-Regular;
+}
+
+.last .questions .top .contact .icon i {
+  color: #ffffff;
+}
+
+.last .questions .bottom {
+  margin-top: 15px;
+  border-radius: 21px;
+  background-color: #ffffff;
+  border: 1px solid #d8d8d8;
+}
+
+.last .questions .bottom .org {
+  padding: 15px 20px;
+  border-bottom: 1px solid #d8d8d8;
+}
+
+.last .questions .bottom .org .org_text h2 {
+  font-size: 30px;
+  color: #f2001f;
+  text-transform: uppercase;
+  font-family: BebasNeue-Regular;
+  font-weight: bold;
+}
+
+.last .questions .bottom .org .work_logo img {
+  width: 145px;
+  height: 65px;
+}
+
+.last .questions .bottom .bottom_text {
+  padding: 15px 20px;
+}
+
+.last .questions .bottom .bottom_text h3 {
+  font-size: 21px;
+  color: #000000;
+  text-align: center;
+  font-family: Inter-Bold;
+}
+
+/************  Responsive Design Start  ***********/
+
+/*****  1200.98  *****/
+
+@media (max-width: 1200.98px) {
+  .support_content .img_content {
+    text-align: center;
+  }
+  .support_content .img_content img {
+    width: 300px;
+    margin-bottom: 10px;
+  }
+  .support_content .head_text h1 {
+    text-align: center;
+  }
+}
+
+/*****  1024.98  *****/
+
+@media (max-width: 1024.98px) {
+  .header_main .logo img {
+    width: 270px;
+    height: 75px;
+  }
+  .donate_content .top_con h1 {
+    font-size: 58px;
+  }
+  .support_content .head_text h1 {
+    font-size: 60px;
+  }
+  .artist_content .artist .img_content img {
+    width: 450px;
+    height: 270px;
+  }
+  .artist_content .artist .text_content h1 {
+    font-size: 60px;
+  }
+  .last .questions .top h1 {
+    font-size: 35px;
+  }
+  .last .questions .top .contact h3 {
+    font-size: 11px;
+  }
+  .last .questions .bottom .bottom_text h3 {
+    font-size: 15px;
+  }
+  .last .questions .bottom .org .org_text h2 {
+    font-size: 28px;
+  }
+}
+
+/*****  991.98  *****/
+
+@media (max-width: 991.98px) {
+  .header_main {
+    text-align: center;
+  }
+  .header_main .logo img {
+    width: 200px;
+    height: 60px;
+  }
+  .header_main .contact_info h3 {
+    font-size: 15px;
+  }
+  .donate_content {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+  .donate_content .top_con h1 {
+    font-size: 40px;
+  }
+  .donate_content .top_con .donate_box h3 {
+    font-size: 35px;
+  }
+  .donate_content .top_con .donate_box {
+    padding: 25px 0;
+  }
+  .donate_content .top_con .donate_btn {
+    padding-top: 10px;
+  }
+  .donate_content .bottom_con p {
+    font-size: 15px;
+  }
+  .support_content .head_text h1 {
+    font-size: 45px;
+  }
+  .artist {
+    text-align: center;
+  }
+  .artist_content .artist .text_content h1 {
+    font-size: 45px;
+    margin-top: 20px;
+  }
+  .last {
+    text-align: center;
+  }
+  .last .questions {
+    margin-top: 20px;
+    border-left: none;
+  }
+  .last .questions .top h1 {
+    text-align: left;
+  }
+  .last .questions .top .contact h3 {
+    font-size: 15px;
+  }
+  .last .questions .bottom .org .org_text h2 {
+    font-size: 35px;
+    text-align: left;
+  }
+  .last .questions .bottom .bottom_text h3 {
+    font-size: 20px;
+  }
+  .last .questions {
+    padding-left: 10px;
+  }
+}
+
+/*****  767.98  *****/
+
+@media (max-width: 767.98px) {
+  .header_main .logo img {
+    width: 165px;
+    height: 50px;
+  }
+  .header_main .contact_info h3 {
+    font-size: 12px;
+  }
+  .donate_content .top_con {
+    text-align: center;
+  }
+  .donate_content .top_con .donate_box {
+    margin-top: 20px;
+  }
+  .support_content {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+  .artist_content {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+}
+
+/*****   575.98  *****/
+
+@media (max-width: 575.98px) {
+  .donate_content .top_con h1 {
+    font-size: 25px;
+  }
+  .donate_content .top_con .donate_box h3 {
+    font-size: 30px;
+  }
+  .donate_btn button {
+    font-size: 14px;
+    padding: 10px 37px;
+  }
+  .donate_content .bottom_con p {
+    font-size: 14px;
+    line-height: 20px;
+  }
+  .support_content .head_text h1 {
+    font-size: 30px;
+  }
+  .support_content {
+    padding-top: 35px;
+    padding-bottom: 35px;
+  }
+  .support_content .img_content {
+    padding-top: 30px;
+  }
+  .artist_content .artist .text_content h1 {
+    font-size: 30px;
+  }
+  .artist_content .artist .text_content p {
+    font-size: 14px;
+    line-height: 20px;
+  }
+  .artist_content .artist .img_content img {
+    width: 100%;
+    height: auto;
+  }
+  .artist_content {
+    padding-top: 50px;
+    padding-bottom: 30px;
+  }
+  .last .works .work_img img {
+    width: 100%;
+    height: auto;
+  }
+  .last .works h3 {
+    font-size: 30px;
+  }
+  .last .questions .top h1 {
+    font-size: 30px;
+  }
+  .last .questions .top .contact h3 {
+    font-size: 12px;
+  }
+  .last .questions .bottom .org .org_text h2 {
+    font-size: 30px;
+  }
+  .last .questions .bottom .bottom_text h3 {
+    font-size: 16px;
+  }
+}
+
+/*****   480.98  *****/
+
+@media (max-width: 480.98px) {
+  .header_main .contact_info h3 {
+    font-size: 10px;
+  }
+  .header_main .logo img {
+    width: 145px;
+    height: 45px;
+  }
+  .donate_content {
+    padding-top: 25px;
+  }
+  .contact_info {
+    padding-top: 15px;
+  }
+  .donate_btn button {
+    font-size: 12px;
+  }
+  .support_content .img_content img {
+    width: 100%;
+    height: auto;
+  }
+  .last .works h3 {
+    font-size: 22px;
+  }
+  .donate_content .top_con .donate_box h3 {
+    font-size: 25px;
+  }
+  .donate_btn button {
+    font-size: 12px;
+    padding: 8px 20px;
+  }
+  .donate_content .bottom_con p {
+    font-size: 12px;
+    line-height: 20px;
+  }
+  .artist_content .artist .text_content h1 {
+    font-size: 25px;
+  }
+  .artist_content .artist .text_content p {
+    font-size: 12px;
+    line-height: 20px;
+  }
+  .last .questions .top h1 {
+    font-size: 25px;
+  }
+  .last .questions .top .contact h3 {
+    font-size: 10px;
+  }
+  .last .questions .bottom .org .org_text h2 {
+    font-size: 25px;
+  }
+  .last .questions .bottom .bottom_text h3 {
+    font-size: 14px;
+  }
+  .last .questions .bottom .org .work_logo img {
+    width: 100%;
+    height: auto;
+  }
+}
+
+/*****   360.98  *****/
+
+@media (max-width: 360.98px) {
+  .last .works h3 {
+    font-size: 12px;
+  }
+  .donate_btn img {
+    width: 15px;
+  }
+  .donate_btn button {
+    font-size: 9px;
+    padding: 6px 20px;
+  }
+  .last .works .donate_btn {
+    padding-top: 20px;
+  }
+  .last .works .img_text {
+    top: 40px;
+    right: 116px;
+  }
+  .last .contact_no {
+    justify-content: center !important;
+  }
+  .last .mail {
+    justify-content: center !important;
+  }
+  .last_content .last .works .img_text {
+    padding: 25px;
+  }
+}
+
+/******  CSS END   *******/
